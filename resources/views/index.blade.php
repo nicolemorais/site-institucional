@@ -7,5 +7,5 @@
 @endsection
 
 @section('content')
-    @include('parts.blog-post')
+    @include('parts.blog-postttt')
 @endsection
