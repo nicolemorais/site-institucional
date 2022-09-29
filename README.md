@@ -1,4 +1,4 @@
-<a href="https://nicolemorais.github.io/Shawty-Models/">Acesse a página aqui</a>
+<a href="{{ url('/') }}">Acesse a página aqui</a>
 
 
 
