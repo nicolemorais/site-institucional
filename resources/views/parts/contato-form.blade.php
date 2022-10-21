@@ -1,23 +1,23 @@
 @section('content')
 
-<div style="background-image: url('../mdb/img/cards/tela.sgv');">
+<div style="background-image: url('../mdb/img/cards/tela.svg');">
     <!-- CAROUSEL -->
     <div class="container p-5">
         <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
           <div class="carousel-inner border-bottom" style="height: 30vh;">
               <div class="carousel-item active">
-                <img src="../mdb/img/navbar/1.sgv" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
+                <img src="../mdb/img/navbar/1.svg" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
               </div>
               <div class="carousel-item">
-                <img src="../mdb/img/navbar/2.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+                <img src="../mdb/img/navbar/2.svg" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
               </div>
               <div class="carousel-item">
-                <img src="../mdb/img/navbar/3.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+                <img src="../mdb/img/navbar/3.svg" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
               </div>
           </div>
     </div>
     <!-- CONTATO -->
-    <div class="container" style="background-image: url('../mdb/img/cards/tela.sgv')">
+    <div class="container" style="background-image: url('../mdb/img/cards/tela.svg')">
         <div class = "row">
             <div class="col-md-5 mx-auto mt-5" style="font-family: 'Bebas Neue', cursive; font-size: 1.2rem;">
                 <form action="{{ url('/entrar-em-contato') }}" method="POST">

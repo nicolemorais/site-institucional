@@ -1,19 +1,19 @@
 @section('content')
 
 <!-- BACKGROUND -->
-<div style="background-image: url('../mdb/img/cards/tela.sgv');">
+<div style="background-image: url('../mdb/img/cards/tela.svg');">
     <!-- CAROUSEL -->
     <div class="container p-5">
       <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
         <div class="carousel-inner border-bottom" style="height: 30vh;">
             <div class="carousel-item active">
-              <img src="../mdb/img/navbar/sobre1.sgv" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
+              <img src="../mdb/img/navbar/sobre1.svg" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
             </div>
             <div class="carousel-item">
-              <img src="../mdb/img/navbar/sobre2.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+              <img src="../mdb/img/navbar/sobre2.svg" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
             </div>
             <div class="carousel-item">
-              <img src="../mdb/img/navbar/sobre3.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+              <img src="../mdb/img/navbar/sobre3.svg" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
             </div>
         </div>
       </div>
@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-md-6 gx-5 mb-4">
                         <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                        <img src="../mdb/img/cards/tela.sgv" class="img-fluid" />
+                        <img src="../mdb/img/cards/tela.svg" class="img-fluid" />
                         <a href="#!">
                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
