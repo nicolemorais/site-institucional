@@ -8,11 +8,11 @@
   <div style="background: linear-gradient(90deg, rgba(0,0,0,0.9724264705882353) 0%, rgba(0,0,0,0.8883928571428571) 86%);">
     <footer class="text-center text-lg-start text-light" style="font-family: 'Bebas Neue', cursive;">
       <!-- Section: divisão (vazia) -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"></section>
+      <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom"></section>
 
       <!-- Section: Links  -->
       <section>
-        <div class="container text-center text-md-start md-5">
+        <div class="container text-center text-md-start">
           <div class="row mt-3">
             <div class="col-md-8 col-lg-10 col-xl-5 mx-auto mb-2">
             <a href="{{ url('/') }}">
