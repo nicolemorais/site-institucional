@@ -1,6 +1,6 @@
 @section('content')
 
-<div style="background-image: url('../mdb/img/cards/tela.png');">
+<div style="background-image: url('../mdb/img/cards/tela.svg');">
     <!-- CAROUSEL -->
     <div class="container p-5">
         <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">

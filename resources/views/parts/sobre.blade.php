@@ -1,7 +1,7 @@
 @section('content')
 
 <!-- BACKGROUND -->
-<div style="background-image: url('../mdb/img/cards/tela.png');">
+<div style="background-image: url('../mdb/img/cards/tela.svg');">
     <!-- CAROUSEL -->
     <div class="container p-5">
       <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-md-6 gx-5 mb-4">
                         <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                        <img src="../mdb/img/cards/tela.png" class="img-fluid" />
+                        <img src="../mdb/img/cards/tela.svg" class="img-fluid" />
                         <a href="#!">
                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>

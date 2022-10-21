@@ -1,7 +1,7 @@
 @section('content')
 
 <!-- BACKGROUND -->
-<div style="background-image: url('../mdb/img/cards/tela.png');">
+<div style="background-image: url('../mdb/img/cards/tela.svg');">
     <!-- CAROUSEL -->
     <div class="container p-5">
       <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
@@ -32,7 +32,7 @@
 
             <div class="row text-center">
             <div class="col-lg-4 col-md-12 mb-4">
-                <div class="card" style="background-image: url('../mdb/img/cards/card3.png')">
+                <div class="card" style="background-image: url('../mdb/img/cards/card3.svg')">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="../mdb/img/cards/carda.jpg" class="img-fluid" />
                         <a href="#!">
@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="background-image: url('../mdb/img/cards/card2.png')">
+                <div class="card" style="background-image: url('../mdb/img/cards/card2.svg')">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src='../mdb/img/cards/carda.jpg' class="img-fluid" />
                         <a href="#!">
@@ -54,7 +54,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" style="background-image: url('../mdb/img/cards/card1.png')">
+                <div class="card" style="background-image: url('../mdb/img/cards/card1.svg')">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="../mdb/img/cards/carda.jpg" class="img-fluid" />
                         <a href="#!">
