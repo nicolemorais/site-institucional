@@ -6,13 +6,13 @@
         <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
           <div class="carousel-inner border-bottom" style="height: 30vh;">
               <div class="carousel-item active">
-                <img src="../mdb/img/navbar/1.png" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
+                <img src="../mdb/img/navbar/1.sgv" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
               </div>
               <div class="carousel-item">
-                <img src="../mdb/img/navbar/2.png" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+                <img src="../mdb/img/navbar/2.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
               </div>
               <div class="carousel-item">
-                <img src="../mdb/img/navbar/3.png" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+                <img src="../mdb/img/navbar/3.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
               </div>
           </div>
     </div>

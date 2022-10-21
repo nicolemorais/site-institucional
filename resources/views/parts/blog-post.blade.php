@@ -7,13 +7,13 @@
     <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
       <div class="carousel-inner border-bottom" style="height: 30vh;">
           <div class="carousel-item active">
-            <img src="../mdb/img/navbar/img1.png" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
+            <img src="../mdb/img/navbar/img1.sgv" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
           </div>
           <div class="carousel-item">
-            <img src="../mdb/img/navbar/img2.png" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+            <img src="../mdb/img/navbar/img2.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
           </div>
           <div class="carousel-item">
-            <img src="../mdb/img/navbar/img3.png" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+            <img src="../mdb/img/navbar/img3.sgv" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
           </div>
       </div>
     </div>
@@ -30,7 +30,7 @@
 
               <div class="row text-center">
                 <div class="col-lg-4 col-md-12 mb-4">
-                  <div class="card" style="background-image: url('../mdb/img/cards/card3.png')">
+                  <div class="card" style="background-image: url('../mdb/img/cards/card3.sgv')">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                       <img src="../mdb/img/cards/carda.jpg" class="img-fluid" />
                       <a href="{{ url('/modelo-feminino') }}">
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card" style="background-image: url('../mdb/img/cards/card2.png')">
+                  <div class="card" style="background-image: url('../mdb/img/cards/card2.sgv')">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                       <img src='../mdb/img/cards/cardb.jpg' class="img-fluid" />
                       <a href="{{ url('/modelo-masculino') }}">
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card" style="background-image: url('../mdb/img/cards/card1.png')">
+                  <div class="card" style="background-image: url('../mdb/img/cards/card1.sgv')">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                       <img src="../mdb/img/cards/cardc.jpg" class="img-fluid" />
                       <a href="{{ url('/modelos-criancas') }}">
