@@ -1,23 +1,23 @@
 @section('content')
 
-<div style="background-image: url('../mdb/img/cards/tela.svg');">
+<div style="background-image: url('../mdb/img/cards/tela.png');">
     <!-- CAROUSEL -->
     <div class="container p-5">
         <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
           <div class="carousel-inner border-bottom" style="height: 30vh;">
               <div class="carousel-item active">
-                <img src="../mdb/img/navbar/1.svg" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
+                <img src="../mdb/img/navbar/1.png" class="d-block w-100" alt="Modelo 1" style="height: 50vh">
               </div>
               <div class="carousel-item">
-                <img src="../mdb/img/navbar/2.svg" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+                <img src="../mdb/img/navbar/2.png" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
               </div>
               <div class="carousel-item">
-                <img src="../mdb/img/navbar/3.svg" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
+                <img src="../mdb/img/navbar/3.png" class="d-block w-100" alt="Modelo 2" style="height: 50vh">
               </div>
           </div>
     </div>
     <!-- CONTATO -->
-    <div class="container" style="background-image: url('../mdb/img/cards/tela.svg')">
+    <div class="container" style="background-color:rgba(197, 197, 197, 0.651);">
         <div class = "row">
             <div class="col-md-5 mx-auto mt-5" style="font-family: 'Bebas Neue', cursive; font-size: 1.2rem;">
                 <form action="{{ url('/entrar-em-contato') }}" method="POST">
@@ -66,19 +66,19 @@
                         <label class="form-label text-black" for="form4Example1">Nome da empresa</label>
                     </div>
                     <div class="form-outline mb-4">
-                        <input type="text" id="form4Example1" class="form-control" name="cidade_uf" placeholder="Cidade/Estado"/>
+                        <input type="text" id="form4Example1" class="form-control" name="cidade_uf"/>
                         <label class="form-label text-black" pattern="[A-Za-z]{0-20}/[A-Za-z]{2}" for="form4Example1">Cidade / UF</label>
                     </div>
                     <div class="form-outline mb-4">
-                        <input type="text" id="form4Example2" class="form-control" name="nome_representante" placeholder="Nome Sobrenome"/>
-                        <label class="form-label text-black" placeholder="(99) 9999-9999"  for="form4Example2">Nome / Representante</label>
+                        <input type="text" id="form4Example2" class="form-control" name="nome_representante" />
+                        <label class="form-label text-black"  for="form4Example2">Nome / Representante</label>
                     </div>
                     <div class="form-outline mb-4">
-                        <input type="email" id="form4Example1" class="form-control" name="email" placeholder="seuemail@contato.com"/>
+                        <input type="email" id="form4Example1" class="form-control" name="email"/>
                         <label class="form-label text-black" for="form4Example1">Email</label>
                     </div>
                     <div class="form-outline mb-4">
-                        <input type="text" id="form4Example1" class="form-control" name="tel" placeholder="(99) 9999-9999" title="Por favor respeite os símbolos." />
+                        <input type="text" id="form4Example1" class="form-control" name="tel" title="Por favor respeite o formato. Ex:(99)9999-9999"/>
                         <label class="form-label text-black" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" for="form4Example1">Número de contato</label>
                     </div>
                     <div class="form-outline mb-4">
