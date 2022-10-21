@@ -1,6 +1,6 @@
 @section('content')
 
-<div style="background-image: url('../mdb/img/cards/tela.jpg');">
+<div style="background-image: url('../mdb/img/cards/tela.svg');">
     <!-- CAROUSEL -->
     <div class="container p-5">
         <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
@@ -17,7 +17,7 @@
           </div>
     </div>
     <!-- CONTATO -->
-    <div class="container" style="background-image: url('../mdb/img/cards/tela.jpg')">
+    <div class="container" style="background-image: url('../mdb/img/cards/tela.svg')">
         <div class = "row">
             <div class="col-md-5 mx-auto mt-5" style="font-family: 'Bebas Neue', cursive; font-size: 1.2rem;">
                 <form action="{{ url('/entrar-em-contato') }}" method="POST">
