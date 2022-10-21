@@ -1,7 +1,7 @@
 @section('content')
 
 <!-- BACKGROUND -->
-<div style="background-image: url('../mdb/img/cards/tela.jpg');">
+<div style="background-image: url('../mdb/img/cards/tela.sgv');">
   <!-- CAROUSEL -->
   <div class="container p-5">
     <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
@@ -103,7 +103,7 @@
             }
           </style>
           <!-- Background image -->
-          <div id="intro" class="p-5 text-center bg-image shadow-1-strong" style="background-image: url('../mdb/img/cards/tela2.jpg'); font-family:'Bebas Neue',cursive;">
+          <div id="intro" class="p-5 text-center bg-image shadow-1-strong" style="background-image: url('../mdb/img/cards/tela2.sgv'); font-family:'Bebas Neue',cursive;">
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.527);">
               <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white px-4">
