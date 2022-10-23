@@ -1,7 +1,7 @@
 @section('content')
 
 <!-- BACKGROUND -->
-<div style="background-image: url('../mdb/img/cards/tela.svg');">
+<div style="background: linear-gradient(0deg, rgba(32,32,32,0.9472163865546218) 0%, rgba(96,93,93,0.7903536414565826) 38%, rgba(242,242,242,0.908000700280112) 100%);">
     <!-- CAROUSEL -->
     <div class="container p-5">
       <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">

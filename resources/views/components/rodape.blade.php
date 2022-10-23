@@ -5,17 +5,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
   <!-- FOOTER -->
-  <div style="background: linear-gradient(90deg, rgba(0,0,0,0.9724264705882353) 0%, rgba(0,0,0,0.8883928571428571) 86%);">
-    <footer class="text-center text-lg-start text-light" style="font-family: 'Bebas Neue', cursive;">
-      <!-- Section: divisão (vazia) -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom"></section>
-
+  
+    <footer class="text-center text-lg-start text-light py-4 text-center" style="font-family: 'Bebas Neue', cursive; background: linear-gradient(90deg, rgba(0,0,0,0.9724264705882353) 0%, rgba(0,0,0,0.8883928571428571) 86%);">
       <!-- Section: Links  -->
       <section>
         <div class="container text-center text-md-start">
           <div class="row mt-3">
             <div class="col-md-8 col-lg-10 col-xl-5 mx-auto mb-2">
-            <a href="{{ url('/') }}">
+            <a target="_blank" href="{{ url('/') }}">
               <h6 class="text-uppercase fw-bold mb-4 text-white" style="font-size: 1.7rem;">
 
               <img src="../mdb/img/logo3.ico" alt="Logo" style="width: 10vw;">
@@ -38,9 +35,7 @@
                 <i class="fas fa-phone me-3"></i>(11) 1212-8585
               </p>
             </div>
-            <!-- Grid column -->
           </div>
-          <!-- Grid row -->
         </div>
       </section>
       <!-- Section: Links  -->
@@ -48,11 +43,9 @@
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
-        <a class="text-reset fw-bold" href="{{ url('/') }}">shawtymodels.com</a>
+        <a class="text-reset fw-bold" target="_blank" href="{{ url('/') }}">shawtymodels.com</a>
       </div>
       <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-  </div>
 </body>
 </html>

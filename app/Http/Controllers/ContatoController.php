@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Mail;
-use App\Mail\SendMail;
 
 class ContatoController extends Controller
 {

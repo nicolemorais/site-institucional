@@ -1,7 +1,7 @@
 @section('content')
 
 <!-- BACKGROUND -->
-<div style="background-image: url('../mdb/img/cards/tela.svg');">
+<div style="background: linear-gradient(0deg, rgba(32,32,32,0.9472163865546218) 0%, rgba(96,93,93,0.7903536414565826) 38%, rgba(242,242,242,0.908000700280112) 100%);">
   <!-- CAROUSEL -->
   <div class="container p-5">
     <div id="carouselExampleControls" class="carousel slide m-auto" data-mdb-ride="carousel">
@@ -147,15 +147,15 @@
                   <!-- Article data -->
                   <div class="row mb-3">
                     <div class="col-6">
-                      <a href="#" class="text-black">
-                        <i class="fas fa-plane" style="color:black"></i>
+                      <a href="#" class="text-white">
+                        <i class="fas fa-plane" style="color:rgb(255, 255, 255)"></i>
                         Viagens
                       </a>
                     </div>
                   </div>
                   <!-- Article title and description -->
-                  <a href="#" class="text-dark">
-                    <h5 style="font-family:'Bebas Neue',cursive; font-size:2.0rem; color:rgba(0, 0, 0, 0.815)">O sucesso da cultura</h5>
+                  <a href="#" class="text-white">
+                    <h5 style="font-family:'Bebas Neue',cursive; font-size:2.0rem; color:rgb(255, 255, 255)">O sucesso da cultura</h5>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
                       id nihil magni, sint vero provident esse numquam perferendis ducimus dicta
@@ -178,15 +178,15 @@
                   <!-- Article data -->
                   <div class="row mb-3">
                     <div class="col-6">
-                      <a href="#" class="text-black">
-                        <i class="fas fa-chart-pie"style="color:black;"></i>
+                      <a href="#" class="text-white">
+                        <i class="fas fa-chart-pie" style="color:rgb(255, 255, 255)"></i>
                         Negócios
                       </a>
                     </div>
                   </div>
                   <!-- Article title and description -->
-                  <a href="#" class="text-dark">
-                    <h5 style="font-family:'Bebas Neue',cursive; font-size:2.0rem; color:rgba(0, 0, 0, 0.815)">Vida de modelo</h5>
+                  <a href="#" class="text-white">
+                    <h5 style="font-family:'Bebas Neue',cursive; font-size:2.0rem; color:rgb(255, 255, 255)">Vida de modelo</h5>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
                       id nihil magni, sint vero provident esse numquam perferendis ducimus dicta
@@ -209,15 +209,15 @@
                   <!-- Article data -->
                   <div class="row mb-3">
                     <div class="col-6">
-                      <a href="#" class="text-black">
-                        <i class="fas fa-expand" style="color:black;"></i>
+                      <a href="#" class="text-white">
+                        <i class="fas fa-expand" style="color:rgb(255, 255, 255)"></i>
                         Tecnologias
                       </a>
                     </div>
                   </div>
                   <!-- Article title and description -->
-                  <a href="#" class="text-dark">
-                    <h5 style="font-family:'Bebas Neue',cursive; font-size:2.0rem; color:rgba(0, 0, 0, 0.815)">As tecnologias das passarelas</h5>
+                  <a href="#" class="text-white">
+                    <h5 style="font-family:'Bebas Neue',cursive; font-size:2.0rem; color:rgb(255, 255, 255)">As tecnologias das passarelas</h5>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste aliquid. Sed
                       id nihil magni, sint vero provident esse numquam perferendis ducimus dicta

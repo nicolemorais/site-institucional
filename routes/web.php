@@ -3,9 +3,14 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\UserController;
+
 
 //ACESSO PRIVADO
 
+Route::get('/private-login', [UserController::class, 'index'])->name('home.login');
+
+Route::post('/login', [UserController::class, 'auth'])->name('login');
 
 
 
@@ -13,7 +18,7 @@ use App\Http\Controllers\ContatoController;
 //ACESSO PÚBLICO
 
 Route::get('/',function () {
-    return view('index');
+    return view('home');
 });
 
 Route::get('/sobre-nos', function () {

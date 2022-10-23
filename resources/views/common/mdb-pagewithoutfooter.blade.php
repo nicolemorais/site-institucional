@@ -2,4 +2,3 @@
 
     @yield('content')
 
-@include('components.rodape')

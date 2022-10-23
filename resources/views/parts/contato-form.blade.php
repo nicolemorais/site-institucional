@@ -17,7 +17,7 @@
           </div>
     </div>
     <!-- CONTATO -->
-    <div class="container" style="background-color:rgba(197, 197, 197, 0.651);">
+    <div class="container rounded-5" style="background: linear-gradient(0deg, rgba(32,32,32,0.9472163865546218) 0%, rgba(96,93,93,0.7903536414565826) 38%, rgba(242,242,242,0.908000700280112) 100%);" >
         <div class = "row">
             <div class="col-md-5 mx-auto mt-5" style="font-family: 'Bebas Neue', cursive; font-size: 1.2rem;">
                 <form action="{{ url('/entrar-em-contato') }}" method="POST">
@@ -89,7 +89,7 @@
                         <textarea inputmode="text"  class="form-control" id="form4Example3" rows="4" style="resize: none" name="msg"></textarea>
                         <label class="form-label text-black" for="form4Example3">Mensagem / Proposta / Modelo</label>
                     </div>
-                    <button type="submit" class="btn btn-block mb-4 bg-dark" style="font-size: 1.4rem; color:white;">
+                    <button type="submit" class="btn btn-block mb-4 " style="font-size: 1.4rem; color:white; background-color:black">
                         Enviar
                     </button>
                 </form>  
