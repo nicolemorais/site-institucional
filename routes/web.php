@@ -1,24 +1,24 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\UserController;
 
 
 //ACESSO PRIVADO
 
-Route::get('/private-login', [UserController::class, 'index'])->name('home.login');
-
-Route::post('/login', [UserController::class, 'auth'])->name('login');
-
-
 
 
 //ACESSO PÚBLICO
 
+Route::get('/login', [UserController::class, 'login'])->name('user.login');
+
+Route::get('/loginCreate', [UserController::class, 'loginCreate'])->name('user.loginCreate');
+
+Route::post('/login-create', [UserController::class, 'create'])->name('user.create');
+
+
 Route::get('/',function () {
-    return view('home');
+    return view('welcome');
 });
 
 Route::get('/sobre-nos', function () {
@@ -26,7 +26,9 @@ Route::get('/sobre-nos', function () {
 });
 
 // FORMULÁRIO - ENTRAR EM CONTATO VIA EMAIL //
-Route::resource('/entrar-em-contato', ContatoController::class);
+Route::get('/entrar-em-contato', function () {
+    return view('sites.contato');
+});
 
 // CASTING //
 Route::get('/modelo-feminino', function () {

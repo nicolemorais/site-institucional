@@ -7,11 +7,10 @@
 
 @section('content')
 @yield('content')
-<!-- FORMULÁRIO DE LOGIN -->
 <div class="container rounded-5 mt-5 p-5 m-12 mb-5" style="background: linear-gradient(0deg, rgba(32,32,32,0.9472163865546218) 0%, rgba(96,93,93,0.7903536414565826) 38%, rgba(242,242,242,0.908000700280112) 100%);" >
     <div class = "row">
         <div class="col-md-5 mx-auto mt-5" style="font-family: 'Bebas Neue', cursive; font-size: 1.2rem;">
-            <form action="" method="POST">
+            <form action="{{ route('user.create') }}" method="POST">
                 @csrf
                 
                 <!-- NOTIFICAÇÃO DE FORMULÁRIO NÃO PREENCHIDO CORRETAMENTE -->
@@ -42,20 +41,24 @@
                 @endif
 
                 <div class="form-outline mb-4">
-                    <input type="email" id="form4Example1" class="form-control" name="email_user"/>
+                    <input type="text" id="form4Example2" class="form-control" name="name" />
+                    <label class="form-label text-black"  for="form4Example2">Nome Completo</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="email" id="form4Example1" class="form-control" name="email"/>
                     <label class="form-label text-black" for="form4Example1">Email</label>
                 </div>
                 <div class="form-outline mb-4">
-                    <input type="password"  id="form1Example1" class="form-control" name="password_user" />
+                    <input type="password"  id="form1Example1" class="form-control" name="password" />
                     <label class="form-label text-black" for="form1Example1">Senha</label>
                   </div>
                 <button type="submit" class="btn btn-block mb-4 " style="font-size: 1.4rem; color:white; background-color:black">
-                    Entrar
+                    Registrar
                 </button>
 
                 <div class="text-center m-5 text-black">
-                    <p>Não é membro? <a class="text-white" href=" {{ route('user.loginCreate') }}">Registre-se</a></p>
-                    <p>ou entre usando:</p>
+                    <p>Já é membro? <a class="text-white" href="{{ url('/login') }}">Entre aqui</a></p>
+                    <p>ou registre-se usando:</p>
                     <button type="button" class="btn btn-primary btn-floating mx-1" style="background-color: black;">
                       <i class="fab fa-facebook-f"></i>
                     </button>

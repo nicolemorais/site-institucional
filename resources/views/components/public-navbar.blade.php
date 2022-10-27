@@ -48,14 +48,52 @@
               </li>
             </ul>
         </ul>
-        <div class="d-flex flex-row-reverse  col-10" style="font-size: 1.8rem">
-          <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-linkedin" ></i></a></div>
-          <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-square-whatsapp"></i></a></div>
-          <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-square-youtube"></i></a></div>
-          <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-square-instagram"></i></a></div>
-          </div>
+        <div class="d-flex flex-row-reverse col-10" style="font-size: 1.7rem;">
+            <div class="p-2">
+              <ul class="nav-item dropdown">
+                  <a
+                    style="font-size: 1.5rem;"
+                    class="text-black"
+                    href="{{ route('user.login') }}">
+                    <i class="fas fa-user"></i>
+                  </a>
+              </ul>
+            </div>
+            <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-linkedin" ></i></a></div>
+            <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-square-whatsapp"></i></a></div>
+            <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-square-youtube"></i></a></div>
+            <div class="p-2"><a class="text-black" href="#"><i class="fa-brands fa-square-instagram"></i></a></div>
+
+        </div>
       </div>
     </div>
   </nav>
 </div>
 @endsection
+
+
+
+<!--
+<div class="p-2">
+  <ul class="nav-item dropdown">
+      <a
+        style="font-size: 1.5rem;"
+        class=" dropdown-toggle text-black"
+        href="#"
+        id="navbarDropdown"
+        role="button"
+        data-mdb-toggle="dropdown"
+        aria-expanded="false">
+        <i class="fas fa-user"></i>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li>
+          <a class="dropdown-item" href="#">Entrar</a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="#">Registrar-se</a>
+        </li>
+      </ul>
+  </ul>
+</div>
+-->
