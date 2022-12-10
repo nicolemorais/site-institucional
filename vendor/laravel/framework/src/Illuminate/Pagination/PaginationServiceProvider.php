@@ -31,4 +31,9 @@ class PaginationServiceProvider extends ServiceProvider
     {
         PaginationState::resolveUsing($this->app);
     }
+
+    
+    
+
+
 }
