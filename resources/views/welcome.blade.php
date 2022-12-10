@@ -1,6 +1,6 @@
 @extends('common.mdb-pagewithmenu')
 
-@section('title', 'Shawty Models | Página Inicial')
+@section('title', 'Página Inicial')
 
 @section('menu')
     @include('components.public-navbar')
